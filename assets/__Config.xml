@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<settings>
+		<assets>
+			<packages default="assets" audio="assets.audio" />
+		</assets>
+		<font name="roboto-webfont" />
+		<asciiArt>
+  ________  ___   _  _____    ___  ___  _____  __  __ _________  ____ 
+ / ___/ _ \/ _ | / |/ / _ \  / _ \/ _ \/  _/ |/_/ / // / __/ _ \/ __ \
+/ /  / , _/ __ |/    / // / / ___/ , _// /_)  (  / _  / _// , _/ /_/ /
+\___/_/|_/_/ |_/_/|_/____/ /_/  /_/|_/___/_/|_| /_//_/___/_/|_|\____/ 
+
+		</asciiArt>
+		<urls>
+			<website>//game24h.vn/</website>
+		</urls>
+		<googleAnalytics id="UA-22406337-12" enabled="true" />
+		<audioHoldDelay>5000</audioHoldDelay>
+		<disableEyeCandy>false</disableEyeCandy>
+		<disableDeviceMotion>false</disableDeviceMotion>
+		<orientationApproximation>false</orientationApproximation>
+		<startingLevel>0</startingLevel>
+	</settings>
+	<gui>
+		<audioHoldMessage>BẤM ĐỂ CHƠI</audioHoldMessage>
+		<buttons>
+			<website>GAME KHÁC</website>
+			<instructions>HƯỚNG DẪN</instructions>
+			<play>BẮT ĐẦU</play>
+			<selectLevel>BẮT ĐẦU ĐUA</selectLevel>
+			<replay>THỬ LẠI</replay>
+			<continue>TIẾP TỤC</continue>
+			<finished>THẤT BẠI</finished>
+			<reset>CHƠI MỚI</reset>
+			<buy>MUA</buy>
+			<countdown>TỰ ĐỘNG BẮT ĐẦU</countdown>
+			<unpause>TIẾP TỤC</unpause>
+			<audio>ÂM THANH</audio>
+			<fullScreen>MÀN HÌNH RỘNG</fullScreen>
+			<back>THOÁT GAME</back>
+			<testMode>
+				<finish>HOÀN THÀNH</finish>
+				<skip>BỎ QUA</skip>
+			</testMode>
+		</buttons>
+		<locations>
+			<a alt="Italian">Italy</a>
+			<b alt="British">Britain</b>
+			<c alt="Japanese">Japan</c>
+			<d alt="Monaco">Monaco</d>
+		</locations>
+		<upgrades>
+			<speed>TỐC ĐỘ</speed>
+			<steering>ĐỘ BÁM</steering>
+			<acceleration>ĐỘNG CƠ</acceleration>
+			<boost>TĂNG TỐC</boost>
+		</upgrades>
+		<rank>
+			<good>Tuyệt vời! Bạn đã làm rất tốt!</good>
+			<ok  >Tốt, bạn hãy cố gắng luyện tập thêm!</ok>
+			<poor>Cuộc đua đã kết thúc bạn hãy nâng cấp xe của mình!</poor>
+		</rank>
+		<scenes>
+			<instructions>
+				<title>HƯỚNG DẪN</title>
+				<message><![CDATA[VƯỢT QUA CÁC ĐỐI THỦ ĐỂ DÀNH ĐƯỢC VÍ TRÍ ĐẦU.<br/><br/>THU THẬP THÊM TIỀN VÀNG ĐỂ NÂNG CẤP XE CỦA BẠN.<br/><br/>SỬ DỤNG CÁC PHÍM ĐỂ ĐIỀU KHIỂN XE?]]></message>
+			</instructions>
+			<selectLevel>
+				<title>CUỘC ĐUA __X__ CHẶNG 4</title>
+				<altTitle> </altTitle>
+			</selectLevel>
+			<interstitial>
+				<total>TỔNG ĐIỂM</total>
+				<personalBest>TỐT NHẤT</personalBest>
+			</interstitial>
+			<results>
+				<title>CUỘC ĐUA __X__ HOÀN THÀNH</title>
+				<table>
+					<location>CUỘC ĐUA</location>
+					<position>VỊ TRÍ</position>
+					<points>ĐIỂM</points>
+					<total>TỔNG ĐIỂM</total>
+					<personalBest>TỐT NHẤT</personalBest>
+				</table>
+				<message>Bạn đã hoàn thành cuộc đua ở vị trí __SCORE__  Và dành được __POINTS__  điểm.</message>
+			</results>
+			<shop>
+				<title>NÂNG CẤP XE</title>
+				<maxed>Max</maxed>
+				<insufficient>KIẾM ĐƯỢC</insufficient>
+			</shop>
+		</scenes>
+	</gui>
+</data>
